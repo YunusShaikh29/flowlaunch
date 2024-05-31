@@ -38,7 +38,7 @@ const HomePage = () => {
             />
           )
         )}
-       {filteredProducts.length === 0 && <div className="text-2xl md:text-5xl font-bold">No product found</div>}
+       {filteredProducts.length === 0 && <div className="text-2xl md:text-5xl font-bold capitalize">No product found</div>}
       </div>
       {selectedProduct && (
         <ProductModal
